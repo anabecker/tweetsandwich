@@ -1,0 +1,278 @@
+	body{
+	color:#fff;
+	font-family:georgia, times, serif;
+	font-size:10pt;
+	}
+	
+	
+	#footer{
+	color:#888;
+	font-family:helvetica, arial, sans-serif;
+	font-size:10pt;
+	float:right;
+	}
+
+	#footer a{
+	color:#999;
+	}
+	
+	
+	#wrapper{
+	position:relative;
+	width:900px;
+	margin-left:auto;
+	margin-right:auto;
+	height:auto;
+	
+	}
+	
+	#share{
+	height:100px;
+	width:200px;
+	float:right;
+	position:absolute;
+	top:10px;
+	right:20px;
+	
+	}
+
+	#facebook{
+	float:right;
+	}
+	
+	
+	#twitter{
+	margin-bottom:10px;
+	margin-right:10px;
+	width:60px;
+	float:left;
+	}
+	
+	#stumbleupon{
+	float:left;
+	margin-bottom:10px;
+	}
+	
+	h1{
+	color:#fff;
+	font-family:helvetica,arial,sans-serif;
+	font-size:50px;
+	margin:10px 0 10px 0 ;
+	padding:0;
+	}
+	
+	h3{
+	color:#999;
+	font-family:helvetica,arial,sans-serif;
+	font-size:15px;
+	margin:10px 0 0 20px;
+	padding:0;
+	}
+	
+		h2{
+	color:#555;
+	font-family:georgia, times, serif;
+	font-style:italic;
+	font-size:15px;
+	margin:10px 0 0 20px;
+	padding:0;
+	}
+	
+	a{
+	text-decoration:underline;
+	font-family:helvetica,arial,sans-serif;
+	font-style:normal;
+	color:#999;
+	
+	}
+		.sandwich{
+	position:relative;
+	display:block;
+	width:850px;
+	height:auto;
+	overflow:visible;
+	min-height:70px;
+	padding:10px;
+	}
+
+	
+	.tweet{
+	display:block;
+	width:550px;
+	height:auto;
+	margin-top:30px;
+	margin-bottom:10px;
+	margin-left:auto;
+	margin-right:auto;
+	-moz-border-radius:10px;
+		-webkit-border-radius:10px;
+	background-color:#222;
+	opacity:0.8;
+	}
+	
+	.tweet p{
+	padding:10px;
+	margin:15px;
+	}
+	
+	#sandwichtop{
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:-50px;
+	position:relative;
+	top:50px;
+	height:180px;
+	width:1000px;
+	background-image:url(images/bread1.png);
+	background-position:top center;
+	background-repeat:no-repeat;
+	padding:5px;
+	}
+	
+	#sandwichbody{
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+	top:20px;
+	width:800px;
+	}
+	
+	#sandwichbottom{
+	padding-left:-20px;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+	height:100px;
+	width:830px;
+	background-image:url(images/bread2.png);
+	background-position:top center;
+	background-repeat:no-repeat;
+	}
+	
+/*ingredients------------------------*/	
+
+	.steak{
+	background-image:url(images2/steak.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+	}
+		
+	.cheese{
+	background-image:url(images2/cheese.png);
+	background-repeat:no-repeat;
+	background-position:center center;
+	}
+	
+	.pork{
+	background-image:url(images2/pork.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+	
+	}
+
+	
+	.ham{
+	background-image:url(images2/ham.png);
+	background-repeat:no-repeat;
+	background-position:center center;
+
+	}
+	
+	.bacon{
+	background-image:url(images2/bacon.png);
+	background-repeat:no-repeat;
+	background-position:center center;
+	}
+	
+		.turkey{
+	background-image:url(images2/turkey.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+	}
+	
+			.blt{
+	background-image:url(images2/blt.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+	}
+	
+			.roastbeef{
+	background-image:url(images2/roastbeef.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+	}
+	
+				.pbj{
+	background-image:url(images2/pbj2.png);
+		background-repeat:no-repeat;
+	background-position:center center;
+	}
+	
+					.pb{
+	background-image:url(images2/pb.png);
+		background-repeat:no-repeat;
+	background-position:center center;
+	}
+	
+						.pbbanana{
+	background-image:url(images2/pbbanana.png);
+		background-repeat:no-repeat;
+	background-position:center center;
+	}
+	
+	.icecream{
+	background-image:url(images2/icecream.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+	}
+	
+	.egg{
+	background-image:url(images2/egg.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+	}
+	
+	.chicken{
+	background-image:url(images2/chicken.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+	}
+
+.veggie{
+	background-image:url(images2/veggie.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+
+
+.pastrami{
+	background-image:url(images2/pastrami.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+
+.cornedbeef{
+	background-image:url(images2/cornedbeef.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+
+.meatball{
+	background-image:url(images2/meatball.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+
+
+.tuna{
+	background-image:url(images2/tuna.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+
+
+.salami{
+	background-image:url(images2/salami.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+}
