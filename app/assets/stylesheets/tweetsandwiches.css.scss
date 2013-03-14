@@ -1,0 +1,278 @@
+// Place all the styles related to the Tweetsandwiches controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+  body{
+  color:#fff;
+  font-family:georgia, times, serif;
+  font-size:10pt;
+  }
+  
+  
+  #footer{
+  color:#888;
+  font-family:helvetica, arial, sans-serif;
+  font-size:10pt;
+  float:right;
+  }
+
+  #footer a{
+  color:#999;
+  }
+  
+  
+  #wrapper{
+  position:relative;
+  width:900px;
+  margin-left:auto;
+  margin-right:auto;
+  height:auto;
+  
+  }
+  
+  #share{
+  height:100px;
+  width:200px;
+  float:right;
+  position:absolute;
+  top:10px;
+  right:20px;
+  
+  }
+
+  #facebook{
+  float:right;
+  }
+  
+  
+  #twitter{
+  margin-bottom:10px;
+  margin-right:10px;
+  width:60px;
+  float:left;
+  }
+  
+  #stumbleupon{
+  float:left;
+  margin-bottom:10px;
+  }
+  
+  h1{
+  color:#fff;
+  font-family:helvetica,arial,sans-serif;
+  font-size:50px;
+  margin:30px 0 20px 0 ;
+  padding:0;
+  }
+  
+  h2{
+  color:#555;
+  font-family:georgia, times, serif;
+  font-style:italic;
+  font-size:15px;
+  margin:10px 0 0 0;
+  padding:0;
+  }
+
+  h3{
+  color:#999;
+  font-family:helvetica,arial,sans-serif;
+  font-size:15px;
+  margin:10px 0 0 20px;
+  padding:0;
+  }
+  
+  a{
+  text-decoration:underline;
+  font-family:helvetica,arial,sans-serif;
+  font-style:normal;
+  color:#999;
+  
+  }
+  
+  .sandwich{
+  display:block;
+  width:850px;
+  overflow:visible;
+  padding:10px;
+  }
+
+  
+  .tweet{
+  display:block;
+  width:550px;
+  height:auto;
+  margin-left:auto;
+  margin-right:auto;
+  -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+  background-color:#222;
+  opacity:0.8;
+  }
+  
+  .tweet p{
+  padding:10px;
+  margin:0;
+  }
+  
+  #sandwichtop{
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:-50px;
+  position:relative;
+  top:90px;
+  height:180px;
+  width:1000px;
+  background-image:url(/assets/bread1.png);
+  background-position:top center;
+  background-repeat:no-repeat;
+  padding:5px;
+  }
+  
+  #sandwichbody{
+  margin-left:auto;
+  margin-right:auto;
+  position:relative;
+  top:20px;
+  width:800px;
+  }
+  
+  #sandwichbottom{
+  padding-left:-20px;
+  margin-left:auto;
+  margin-right:auto;
+  position:relative;
+  height:100px;
+  width:830px;
+  background-image:url(/assets/bread2.png);
+  background-position:top center;
+  background-repeat:no-repeat;
+  }
+  
+/*ingredients------------------------*/ 
+
+  .steak{
+  background-image:url(/assets/steak.png);
+  background-position:center center;
+  background-repeat:no-repeat;
+  }
+    
+  .cheese{
+  background-image:url(/assets/cheese.png);
+  background-repeat:no-repeat;
+  background-position:center center;
+  }
+  
+  .pork{
+  background-image:url(/assets/pork.png);
+  background-position:center center;
+  background-repeat:no-repeat;
+  
+  }
+
+  
+  .ham{
+  background-image:url(/assets/ham.png);
+  background-repeat:no-repeat;
+  background-position:center center;
+
+  }
+  
+  .bacon{
+  background-image:url(/assets/bacon.png);
+  background-repeat:no-repeat;
+  background-position:center center;
+  }
+  
+    .turkey{
+  background-image:url(/assets/turkey.png);
+  background-position:center center;
+  background-repeat:no-repeat;
+  }
+  
+      .blt{
+  background-image:url(/assets/blt.png);
+  background-position:center center;
+  background-repeat:no-repeat;
+  }
+  
+      .roastbeef{
+  background-image:url(/assets/roastbeef.png);
+  background-position:center center;
+  background-repeat:no-repeat;
+  }
+  
+  .peanut-butter-jelly, pb-j{
+  background-image:url(/assets/pbj2.png);
+    background-repeat:no-repeat;
+  background-position:center center;
+  }
+  
+  .peanut-butter{
+  background-image:url(/assets/pb.png);
+    background-repeat:no-repeat;
+  background-position:center center;
+  }
+  
+  .peanut-butter-and-banana, .peanut-butter-banana{
+  background-image:url(/assets/pbbanana.png);
+    background-repeat:no-repeat;
+  background-position:center center;
+  }
+  
+  .icecream{
+  background-image:url(/assets/icecream.png);
+  background-position:center center;
+  background-repeat:no-repeat;
+  }
+  
+  .egg{
+  background-image:url(/assets/egg.png);
+  background-position:center center;
+  background-repeat:no-repeat;
+  }
+  
+  .chicken{
+  background-image:url(/assets/chicken.png);
+  background-position:center center;
+  background-repeat:no-repeat;
+  }
+
+.veggie{
+  background-image:url(/assets/veggie.png);
+  background-position:center center;
+  background-repeat:no-repeat;
+}
+
+
+.pastrami{
+  background-image:url(/assets/pastrami.png);
+  background-position:center center;
+  background-repeat:no-repeat;
+}
+
+.cornedbeef, .corned-beef, .corn-beef {
+  background-image:url(/assets/cornedbeef.png);
+  background-position:center center;
+  background-repeat:no-repeat;
+}
+
+.meatball{
+  background-image:url(/assets/meatball.png);
+  background-position:center center;
+  background-repeat:no-repeat;
+}
+
+
+.tuna{
+  background-image:url(/assets/tuna.png);
+  background-position:center center;
+  background-repeat:no-repeat;
+}
+
+
+.salami{
+  background-image:url(/assets/salami.png);
+  background-position:center center;
+  background-repeat:no-repeat;
+}

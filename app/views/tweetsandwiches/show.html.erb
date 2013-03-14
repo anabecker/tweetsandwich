@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Content:</b>
+  <%= @tweetsandwich.content %>
+</p>
+
+<p>
+  <b>User:</b>
+  <%= @tweetsandwich.user %>
+</p>
+
+<p>
+  <b>User img url:</b>
+  <%= img_tag(@tweetsandwich.user_img_url) %>
+</p>
+
+<p>
+  <b>Ingredient</b>
+  <%= @tweetsandwich.ingredient %>
+</p>
+
+
+<%= link_to 'Edit', edit_tweetsandwich_path(@tweetsandwich) %> |
+<%= link_to 'Back', tweetsandwiches_path %>

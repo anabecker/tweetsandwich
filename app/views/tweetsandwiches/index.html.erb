@@ -1,0 +1,39 @@
+<!-- <h1>Listing tweetsandwiches</h1> -->
+<div id="wrapper">
+  <h1>tweet sandwich</h1>
+  <h2>(Almost) all sandwich ingredients courtesy of <a href="http://www.scanwiches.com">scanwiches.com</a></h2>
+  <div id="share">
+      <div id="twitter">
+        <a href="http://twitter.com/share" class="twitter-share-button" data-text="tweet sandwich = a sandwich. made of twitter." data-count="none" data-via="tweetsandwich" data-related="ana_becker">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+      </div>
+      <div id="stumbleupon">
+        <script src="http://www.stumbleupon.com/hostedbadge.php?s=1"></script>
+      </div>
+      <iframe id="facebook" src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.tweetsandwich.com&amp;layout=standard&amp;show_faces=true&amp;width=200&amp;action=like&amp;colorscheme=dark&amp;height=30" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:200px; height:80px;" allowTransparency="true">
+      </iframe>
+    </div>
+  <div id="sandwichtop"></div>
+  <div id="sandwichbody"> 
+
+<% @tweetsandwiches.each do |tweetsandwich| %>
+  <tr>
+<!--     <td><#%= tweetsandwich.content %></td>
+    <td><#%= tweetsandwich.user %></td>
+    <td><#%= image_tag(tweetsandwich.user_img_url) %></td> -->
+    <div class="sandwich <%= tweetsandwich.ingredient %>">
+      <div class="tweet">
+        <p>
+        <a href="https://twitter.com/<%= tweetsandwich.user %>/status/<%= tweetsandwich.tweet_id %>">
+        <%= image_tag(tweetsandwich.user_img_url) %>
+        <%= tweetsandwich.user %>
+        </a>
+        <%= tweetsandwich.content %>
+      </p>
+      </div>
+    </div>
+
+  </tr>
+<% end %>
+</div>
+
+<!--<%= link_to 'New Tweetsandwich', new_tweetsandwich_path %>-->
