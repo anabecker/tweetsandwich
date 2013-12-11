@@ -7531,3 +7531,240 @@ Migrating to AddTweetId (20130313222008)
   [1m[35m (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20130313222008')
   [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
   [1m[35m (0.2ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-12-11 18:51:04 -0500
+Connecting to database specified by database.yml
+Served asset /rails.png - 200 OK (16ms)
+
+
+Started GET "/tweetsandwiches" for 127.0.0.1 at 2013-12-11 18:51:08 -0500
+Processing by TweetsandwichesController#index as HTML
+  [1m[36mTweetsandwich Load (1.0ms)[0m  [1mSELECT "tweetsandwiches".* FROM "tweetsandwiches" ORDER BY id desc LIMIT 42[0m
+  Rendered tweetsandwiches/index.html.erb within layouts/application (121.1ms)
+Completed 200 OK in 418ms (Views: 222.0ms | ActiveRecord: 113.7ms)
+
+
+Started GET "/assets/tweetsandwiches.js?body=1" for 127.0.0.1 at 2013-12-11 18:51:09 -0500
+Served asset /tweetsandwiches.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-11 18:51:09 -0500
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/tweetsandwiches.css?body=1" for 127.0.0.1 at 2013-12-11 18:51:09 -0500
+Served asset /tweetsandwiches.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-11 18:51:09 -0500
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-11 18:51:09 -0500
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-11 18:51:09 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-11 18:51:09 -0500
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/bread1.png" for 127.0.0.1 at 2013-12-11 18:51:09 -0500
+Served asset /bread1.png - 304 Not Modified (18ms)
+
+
+Started GET "/assets/bread2.png" for 127.0.0.1 at 2013-12-11 18:51:09 -0500
+Served asset /bread2.png - 304 Not Modified (8ms)
+
+
+Started GET "/tweetsandwiches" for 127.0.0.1 at 2013-12-11 18:53:18 -0500
+Processing by TweetsandwichesController#index as HTML
+  [1m[35mTweetsandwich Load (0.3ms)[0m  SELECT "tweetsandwiches".* FROM "tweetsandwiches" ORDER BY id desc LIMIT 42
+  Rendered tweetsandwiches/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 10ms (Views: 6.3ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-11 18:53:18 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-11 18:53:18 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tweetsandwiches.css?body=1" for 127.0.0.1 at 2013-12-11 18:53:18 -0500
+Served asset /tweetsandwiches.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-11 18:53:18 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-11 18:53:18 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-11 18:53:18 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tweetsandwiches.js?body=1" for 127.0.0.1 at 2013-12-11 18:53:18 -0500
+Served asset /tweetsandwiches.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-12-11 18:54:15 -0500
+Connecting to database specified by database.yml
+Served asset /rails.png - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-11 18:54:49 -0500
+Connecting to database specified by database.yml
+Processing by TweetsandwichesController#index as HTML
+  [1m[36mTweetsandwich Load (0.6ms)[0m  [1mSELECT "tweetsandwiches".* FROM "tweetsandwiches" ORDER BY id desc LIMIT 42[0m
+  Rendered tweetsandwiches/index.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 84ms (Views: 34.2ms | ActiveRecord: 7.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-11 18:54:49 -0500
+Served asset /application.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-11 18:54:50 -0500
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-11 18:54:50 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/tweetsandwiches.css?body=1" for 127.0.0.1 at 2013-12-11 18:54:50 -0500
+Served asset /tweetsandwiches.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-11 18:54:50 -0500
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/tweetsandwiches.js?body=1" for 127.0.0.1 at 2013-12-11 18:54:50 -0500
+Served asset /tweetsandwiches.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-11 18:54:50 -0500
+Served asset /jquery_ujs.js - 200 OK (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-11 18:54:50 -0500
+Processing by TweetsandwichesController#index as HTML
+  [1m[35mTweetsandwich Load (1.9ms)[0m  SELECT "tweetsandwiches".* FROM "tweetsandwiches" ORDER BY id desc LIMIT 42
+  Rendered tweetsandwiches/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 11ms (Views: 8.2ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-11 18:54:50 -0500
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/tweetsandwiches.js?body=1" for 127.0.0.1 at 2013-12-11 18:54:50 -0500
+Served asset /tweetsandwiches.js - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-11 18:54:50 -0500
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/tweetsandwiches.css?body=1" for 127.0.0.1 at 2013-12-11 18:54:50 -0500
+Served asset /tweetsandwiches.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-11 18:54:50 -0500
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-11 18:54:50 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-11 18:54:50 -0500
+Served asset /application.js - 200 OK (7ms)
+
+
+Started GET "/assets/bread1.png" for 127.0.0.1 at 2013-12-11 18:54:50 -0500
+Served asset /bread1.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bread2.png" for 127.0.0.1 at 2013-12-11 18:54:50 -0500
+Served asset /bread2.png - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-11 18:54:50 -0500
+Processing by TweetsandwichesController#index as HTML
+  [1m[36mTweetsandwich Load (0.5ms)[0m  [1mSELECT "tweetsandwiches".* FROM "tweetsandwiches" ORDER BY id desc LIMIT 42[0m
+  Rendered tweetsandwiches/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-11 18:54:50 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-11 18:54:50 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-11 18:54:50 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tweetsandwiches.css?body=1" for 127.0.0.1 at 2013-12-11 18:54:50 -0500
+Served asset /tweetsandwiches.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-11 18:54:50 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tweetsandwiches.js?body=1" for 127.0.0.1 at 2013-12-11 18:54:50 -0500
+Served asset /tweetsandwiches.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-11 18:54:50 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-11 18:54:54 -0500
+Processing by TweetsandwichesController#index as HTML
+  [1m[35mTweetsandwich Load (0.4ms)[0m  SELECT "tweetsandwiches".* FROM "tweetsandwiches" ORDER BY id desc LIMIT 42
+  Rendered tweetsandwiches/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-11 18:54:55 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-11 18:54:55 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tweetsandwiches.css?body=1" for 127.0.0.1 at 2013-12-11 18:54:55 -0500
+Served asset /tweetsandwiches.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-11 18:54:55 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tweetsandwiches.js?body=1" for 127.0.0.1 at 2013-12-11 18:54:55 -0500
+Served asset /tweetsandwiches.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-11 18:54:55 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-11 18:54:55 -0500
+Served asset /application.js - 304 Not Modified (1ms)
