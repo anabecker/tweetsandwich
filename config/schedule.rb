@@ -19,7 +19,10 @@
 
 # Learn more: http://github.com/javan/whenever
 
+# set :cron_log, "~/log/cron_log.log"
+# set :whenever_command, "bundle exec whenever"
+# set :environment, "development"
 
-every 5.minutes do  
-  runner "Tweetsandwich.search_twitter"  
+every 1.hours do  
+  runner "Tweetsandwich.search_twitter"
 end
