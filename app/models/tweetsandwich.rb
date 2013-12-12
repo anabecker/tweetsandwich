@@ -3,8 +3,8 @@ class Tweetsandwich < ActiveRecord::Base
   validates_uniqueness_of :tweet_id
 
   Twitter.configure do |config|
-    config.consumer_key = 'KnjJlBWbd8wyTfCXvjbew'
-    config.consumer_secret = 'sU83OZh2mJEFb2H6w018VADzKENrUm8H3c8vwrygj8'
+    config.consumer_key = 'p0sYxIiAL1nGJqYso9OJgA'
+    config.consumer_secret = 'exAWR5BhdnqjROHn4tGJ3fCQUc5Rg3T1TGYjADZyThY'
     config.oauth_token = '21573136-xr9zrC0MtRIWtP5Pw6W4W4Qpk2oVtAktveJwQs7qe'
     config.oauth_token_secret = 'cXtVl0jLMwdlcLbsXOYslAMIgqzLfaJVVlgR3sZjeU'
   end
